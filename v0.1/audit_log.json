@@ -1,0 +1,362 @@
+[
+  {
+    "timestamp": "2026-02-26T14:37:15.815668",
+    "question": "Who was the first person to walk on the moon and in what year?",
+    "primary": {
+      "answer": "Neil Armstrong was the first person to walk on the moon. He did so on July 20, 1969, during the Apollo 11 mission.",
+      "model": "mistral",
+      "hash": "f10b62335d1b81046865edc89ac04373eff6b65ed5efd72d0c0f863e466987c6"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "Neil Armstrong was the first person to walk on the moon, which occurred on July 20, 1969.",
+        "hash": "601d4b80a2f4d7a6c21b66428d30224e7207881664b59d62093c09fb6bb43dd2"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "The first person to walk on the moon was Neil Armstrong, who took his historic steps on July 20, 1969, during NASA's Apollo 11 mission. Buzz Aldrin followed Armstrong shortly after as the second man to step onto the lunar surface.",
+        "hash": "55371221bf2860261ea6d212893d6aad7f4d1ec2714150d785dc55226a9a0d57"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "Neil Armstrong was the first person to walk on the moon. He did so on July 20, 1969, as part of the Apollo 11 mission by NASA. [Certain fact]",
+        "hash": "1e1b1f0b70fd996f45c8f91969bc51d10039db30ea7eb2d551da247030bd0db9"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: Neil Armstrong walked on the moon in 1969.",
+        "hash": "73a973db3277be22ce2b15962ac175418f4a9f8e8f7bf797293d2642020ddc45"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.8639,
+      "risk_level": "LOW",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.9506,
+        "verifier_2": 0.9478,
+        "verifier_3": 0.9952,
+        "verifier_4": 0.7484
+      }
+    },
+    "voting": {
+      "majority_verdict": "AGREE",
+      "agree_count": 3,
+      "disagree_count": 1,
+      "weighted_risk": 0.0817,
+      "final_risk_score": 0.1599,
+      "risk_level": "LOW",
+      "action": "ACCEPT"
+    },
+    "regeneration": {
+      "triggered": false,
+      "outcome": "N/A",
+      "final_answer": "Neil Armstrong was the first person to walk on the moon. He did so on July 20, 1969, during the Apollo 11 mission."
+    },
+    "entry_hash": "f184e04a8c753a0aa0764a23ad41b26bfc357208c5b3d934a2a5da2a0b65b794"
+  },
+  {
+    "timestamp": "2026-02-26T21:11:33.515503",
+    "question": "Who was the first person to walk on the moon and in what year?",
+    "primary": {
+      "answer": "Neil Armstrong was the first person to walk on the moon. He did so on July 20, 1969, during the Apollo 11 mission.",
+      "model": "mistral",
+      "hash": "f10b62335d1b81046865edc89ac04373eff6b65ed5efd72d0c0f863e466987c6"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "Neil Armstrong was the first person to walk on the moon, and it happened on July 20, 1969.",
+        "hash": "79029445813d1dc13d22c8f28332af10a3dacfe26f52f0375ec948f34544e6f4"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "The first man to walk on the moon was Neil Armstrong, and he did so on July 20, 1969, as part of NASA's Apollo 11 mission. Armstrong's famous words upon setting foot on the lunar surface were, \"That's one small step for man, one giant leap for mankind.\" His companion on this historic journey was Buzz Aldrin. Edwin \"Buzz\" Aldrin became the second person to walk on the moon about 20 minutes later.",
+        "hash": "c8f174925720654a993cb6fc95c22b97600cc398d5158f0a498e1f2bca5c0738"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "Neil Armstrong was the first person to walk on the moon. This event took place on July 20, 1969 [CERTAIN].",
+        "hash": "e0690f90623e5b0a786491062f2cf6d07ffca6d0139dd362001e84ac7c4c050b"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: Neil Armstrong was the first person to walk on the moon, in 1969.",
+        "hash": "40bfa39f0ecff3668b2ce1084c05aa7a1f1d3683de04cb5df0a38f60b9c07886"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.9054,
+      "risk_level": "LOW",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.9563,
+        "verifier_2": 0.8762,
+        "verifier_3": 0.9595,
+        "verifier_4": 0.9333
+      }
+    },
+    "voting": {
+      "majority_verdict": "AGREE",
+      "agree_count": 4,
+      "disagree_count": 0,
+      "weighted_risk": 0.0673,
+      "final_risk_score": 0.0458,
+      "risk_level": "LOW",
+      "action": "ACCEPT"
+    },
+    "regeneration": {
+      "triggered": false,
+      "outcome": "N/A",
+      "final_answer": "Neil Armstrong was the first person to walk on the moon. He did so on July 20, 1969, during the Apollo 11 mission."
+    },
+    "entry_hash": "fdae75161e609cbaaa975fc5cf61a8f616da459481bc2e66482c4e45d47809df"
+  },
+  {
+    "timestamp": "2026-02-26T21:23:20.914525",
+    "question": "Who was the first person to walk on the moon and in what year?",
+    "primary": {
+      "answer": "Buzz Aldrin was the first person on the moon in 1971",
+      "model": "simulated",
+      "hash": "1416bec18d737e4bc9286a8f9de39ed522377f2348ff105f71aad80d55ad0b96"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "Neil Armstrong was the first person to walk on the moon, and it happened on July 20, 1969.",
+        "hash": "79029445813d1dc13d22c8f28332af10a3dacfe26f52f0375ec948f34544e6f4"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "The first person to walk on the moon was Neil Armstrong, and he did so on July 20, 1969. He was accompanied by Buzz Aldrin as part of the Apollo 11 mission. This event is often referred to as the \"moon landing.\" However, it's important to note that Michael Collins remained in the lunar module's orbit around the moon while Armstrong and Aldrin descended to the surface.\n\nFor historical context, the Apollo program was a space exploration initiative by NASA, the United States' space agency, during the Cold War era. The moon landing marked a significant achievement in human history, as it represented the first time humans had left Earth and walked on another celestial body.",
+        "hash": "4ed523b10c1eac9d076db93d5d8ed47f679f29563a72d24622ef136a0235a556"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "Neil Armstrong was the first person to walk on the moon. This event occurred on July 20, 1969, according to historical records. [Fact]",
+        "hash": "80d0f6cfb98c11e387b8be1ac89704c67076514517182f8069d0622377339954"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: Neil Armstrong walked on the moon in 1969.",
+        "hash": "73a973db3277be22ce2b15962ac175418f4a9f8e8f7bf797293d2642020ddc45"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.7453,
+      "risk_level": "MODERATE",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.6198,
+        "verifier_2": 0.6679,
+        "verifier_3": 0.6172,
+        "verifier_4": 0.5909
+      }
+    },
+    "voting": {
+      "majority_verdict": "DISAGREE",
+      "agree_count": 0,
+      "disagree_count": 4,
+      "weighted_risk": 0.3755,
+      "final_risk_score": 0.6011,
+      "risk_level": "HIGH",
+      "action": "REGENERATE"
+    },
+    "regeneration": {
+      "triggered": true,
+      "outcome": "NO_IMPROVEMENT",
+      "final_answer": "Buzz Aldrin was the first person on the moon in 1971"
+    },
+    "entry_hash": "aa8e68d9d5b0df1fb2740648bc51d8373e664ebb4a60ed7fe082bbe5b0d3a29b"
+  },
+  {
+    "timestamp": "2026-02-26T21:38:31.185101",
+    "question": "Who won the nobel prize in mathematics in year 2007?",
+    "primary": {
+      "answer": "The Nobel Prize in Mathematics is not awarded by the Nobel Foundation; it only awards prizes in Physics, Chemistry, Medicine, Literature, Peace, and Economic Sciences. However, the Abel Prize, which is often referred to as the \"Nobel Prize of Mathematics,\" was awarded in 2007 to Mikhail Leonidovich Gromov (France).",
+      "model": "mistral",
+      "hash": "74d8a9a9d1cb0e4e0e1453ba6d0d3c9ecb32bd71196d751011eaf74f68ff72af"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "The Nobel Prize in Mathematics is not an official award; there is no such prize as the Nobel Prize in Mathematics. The Nobel Prizes are awarded for achievements in physics, chemistry, physiology or medicine, literature, peace, and economics, but not mathematics.",
+        "hash": "4e5ff96d99d1e33efa20bed04c30c9a92eb476f9eeae155df76ff6dfd277f36d"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "The Nobel Prize in Mathematics is not an official Nobel Prize; it was discontinued in 1962 and is occasionally erroneously associated with other mathematics awards like the Abel Prize or the Fields Medal. However, if we're discussing the year 2007, the Abel Prize was awarded to Eduard Witten from Germany, and the Fields Medal recipients were Maryam Mirzakhani (Iran), Terence Tao (Australia), Ngo Bao Chau (Vietnam), Artur Avila (Brazil), and Martin Hairer (Austria).",
+        "hash": "c5350753521eb7f0b5edca4a6f12eb6afe0ee1529277242ada63b1c200f5e832"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "The Nobel Prize in Mathematics does not exist. The Nobel Prizes are awarded for Physics, Chemistry, Literature, Peace, and Physiology or Medicine, not Mathematics. [UNCERTAIN: Information provided is based on the current format of Nobel Prizes.]",
+        "hash": "5baffd1932805642b64232c8dfd26f71c774f94d3cf0e617b2f721d6cb95eb74"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: The Nobel Prize in Mathematics does not exist. The Nobel Prizes are awarded only for Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences.",
+        "hash": "e211b2f728d70fcc888aa6b070fbc0abe3cd6bf9a810af73d7dee667f051b544"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.8143,
+      "risk_level": "MODERATE",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.7878,
+        "verifier_2": 0.828,
+        "verifier_3": 0.7693,
+        "verifier_4": 0.7427
+      }
+    },
+    "voting": {
+      "majority_verdict": "AGREE",
+      "agree_count": 3,
+      "disagree_count": 1,
+      "weighted_risk": 0.2172,
+      "final_risk_score": 0.224,
+      "risk_level": "MODERATE",
+      "action": "FLAG"
+    },
+    "regeneration": {
+      "triggered": true,
+      "outcome": "NO_IMPROVEMENT",
+      "final_answer": "The Nobel Prize in Mathematics is not awarded by the Nobel Foundation; it only awards prizes in Physics, Chemistry, Medicine, Literature, Peace, and Economic Sciences. However, the Abel Prize, which is often referred to as the \"Nobel Prize of Mathematics,\" was awarded in 2007 to Mikhail Leonidovich Gromov (France)."
+    },
+    "entry_hash": "cb5fa26d666f2e22ce877d972b2d6016f6156735b836ffc0756a5645b6f01ff5"
+  },
+  {
+    "timestamp": "2026-02-26T21:57:49.540868",
+    "question": "Prove that 1 = 2 using Algebra",
+    "primary": {
+      "answer": "In mathematics, it is impossible to prove that 1 equals 2 using algebra (or any other branch of mathematics) because they are inherently different cardinal numbers and one cannot be logically derived from the other within the structure of mathematics.\n\nHowever, in some mathematical contexts like computer science or programming, you might encounter unusual types where equalities like this could be defined. But it is essential to remember that such definitions do not hold in standard number theory or algebra.",
+      "model": "mistral",
+      "hash": "5ae1a1a23a967ae9fb87c75ed00c97433ab709bf32fc02ebe73f65f8c38f91c2"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "In algebra, equating 1 to 2 is not possible because they are fundamentally different numerical values and cannot be proven equal through algebraic equations. The statement is incorrect based on the principles of mathematics.",
+        "hash": "c8073cd17388b97638540dc91c507d0b82c31b9c99491235655d55e0def3359d"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "I'm afraid there is no mathematical proof that can demonstrate the equality of 1 and 2 within the standard rules of algebra or mathematics. The statement \"1 = 2\" contradicts the axioms of equality in arithmetic, as they define that equals are substitutable without changing the truth value of an equation (i.e., if A=B, then B can be replaced with A without altering the validity of the statement). However, in certain specific mathematical contexts such as group theory or set theory, one could use non-standard interpretations to potentially \"prove\" this equality, but these proofs would not hold within the standard rules of arithmetic.",
+        "hash": "73b63b12ad596da3dd6aedbe90c621ff669611b3b29f76d86f1922ea256d2bf1"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "I'm sorry for any confusion, but it's important to clarify that mathematically speaking, it's impossible to prove that 1 equals 2 using algebra or any other mathematical method, as they are inherently different numerical values. This is a fundamental concept in mathematics and is not open to proof or disproof. [UNCERTAIN: This statement refers to a common misconception or request for a mathematical impossibility.]",
+        "hash": "24c59a792e7fe71526e6e00ebf61fd5095e70764651bbc561cc6eb143c664385"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: It's impossible to prove mathematically that 1 equals 2 using only algebra. This is a fundamental principle in mathematics, and the statement 1 = 2 is considered an axiom, not something that can be proven.",
+        "hash": "31608d105fef239afa2676f0aabc15d05365c53573c672d652705eeb0764c18a"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.7901,
+      "risk_level": "MODERATE",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.7798,
+        "verifier_2": 0.7861,
+        "verifier_3": 0.8326,
+        "verifier_4": 0.7746
+      }
+    },
+    "voting": {
+      "majority_verdict": "AGREE",
+      "agree_count": 4,
+      "disagree_count": 0,
+      "weighted_risk": 0.2055,
+      "final_risk_score": 0.1242,
+      "risk_level": "LOW",
+      "action": "ACCEPT"
+    },
+    "regeneration": {
+      "triggered": false,
+      "outcome": "N/A",
+      "final_answer": "In mathematics, it is impossible to prove that 1 equals 2 using algebra (or any other branch of mathematics) because they are inherently different cardinal numbers and one cannot be logically derived from the other within the structure of mathematics.\n\nHowever, in some mathematical contexts like computer science or programming, you might encounter unusual types where equalities like this could be defined. But it is essential to remember that such definitions do not hold in standard number theory or algebra."
+    },
+    "entry_hash": "1d6f7f4826b09b6c493355cde2098d2c9a1d2c207b69af0f1da87b2a233e5b24"
+  },
+  {
+    "timestamp": "2026-02-27T11:38:37.475821",
+    "question": "Who won 2007 nobel prize in mathematics",
+    "primary": {
+      "answer": "The 2007 Nobel Prize in Economic Sciences was awarded jointly to Leonid Hurwicz, Eric Maskin, and Roger Myerson \"for having laid the foundations of mechanism design theory.\" This prize is technically not part of the original Nobel Prizes but was established by Sweden's central bank in 1968. The Nobel Prize in Mathematics does not exist as such; the closest is the Fields Medal, awarded for outstanding mathematical work and given for the first time in 1936.",
+      "model": "mistral",
+      "hash": "22267fbcb9247758ccc8bb562cab2d9bf9274a4250af8bea4a15c08a48adc6d9"
+    },
+    "verifiers": [
+      {
+        "agent": "verifier_1",
+        "style": "direct",
+        "answer": "John Nash, Louis Nirenberg, and Lucien Le Cam shared the 2007 Nobel Prize in Economic Sciences for their pioneering work in game theory, partial differential equations, and statistics with application to economics. However, it should be noted that the Nobel Prize in Mathematics does not exist; the prize mentioned here is actually the Nobel Memorial Prize in Economic Sciences which was established by Sveriges Riksbank (Sweden's central bank) in 1968 as an addition to the original five categories of Nobel Prizes.",
+        "hash": "a357cf7aa249380b3e3409308d930a194d8f2231bce5d5f8ab4f396cdca6615c"
+      },
+      {
+        "agent": "verifier_2",
+        "style": "academic",
+        "answer": "The 2007 Nobel Prize in Mathematics was shared between two mathematicians: Claude L\u00e9vi-Strauss and Albert Fert. However, it seems there may have been a mistake as the Nobel Prize is not awarded in Mathematics but rather in Physics, Chemistry, Medicine (or Physiology), Literature, Peace, and Economic Sciences.\n\nThe correct winner for the 2007 Nobel Prize in Physics was Albert Fert, who shared it with Peter Gr\u00fcnberg. Claude L\u00e9vi-Strauss, though a prominent French anthropologist, did not win the Nobel Prize in Mathematics or any other scientific field.",
+        "hash": "a0797230273d0dd8a98c1563caa8d5e41ae86d4b868583415e67b6f8e36dc5a5"
+      },
+      {
+        "agent": "verifier_3",
+        "style": "cautious",
+        "answer": "John Nash (for contributions to game theory), Luigi Caffarelli (for work in geometric functional analysis) and Louis Nirenberg (for his fundamental contributions to several complex variables, nonlinear partial differential equations and functional analysis) shared the Nobel Prize in Economic Sciences (not Mathematics) for 2015.\n\n[UNCERTAIN] The recipient of the 2007 Nobel Prize in Mathematics is not explicitly listed on the official Nobel Prize website. However, it has been widely reported that Henri Colette and Andrew Wiles were awarded for their contributions to number theory. This information might need further confirmation as the official list only includes Edward Witten (for fundamental accomplishments within mathematical and physical physics).",
+        "hash": "be2795415fc87800f95f78e9a9fe0b355de5f2356a020709c31453179aec4c56"
+      },
+      {
+        "agent": "verifier_4",
+        "style": "analytical",
+        "answer": "Fact: Harold W. Kroto, David J. Thouless, and Jack W. Szostak were awarded the 2007 Nobel Prize in Physics (not Mathematics) for their groundbreaking discoveries in chemistry. No mathematician won the Nobel Prize in Mathematics that year.",
+        "hash": "9699b714b09a3ea1a71ee4813f670d2b38adb84307f8732ec2c19475ed65e132"
+      }
+    ],
+    "aggregation": {
+      "agreement_score": 0.677,
+      "risk_level": "MODERATE",
+      "primary_vs_verifiers": {
+        "verifier_1": 0.772,
+        "verifier_2": 0.6488,
+        "verifier_3": 0.6629,
+        "verifier_4": 0.6232
+      }
+    },
+    "voting": {
+      "majority_verdict": "DISAGREE",
+      "agree_count": 1,
+      "disagree_count": 3,
+      "weighted_risk": 0.3196,
+      "final_risk_score": 0.4924,
+      "risk_level": "HIGH",
+      "action": "REGENERATE"
+    },
+    "regeneration": {
+      "triggered": true,
+      "outcome": "NO_IMPROVEMENT",
+      "final_answer": "The 2007 Nobel Prize in Economic Sciences was awarded jointly to Leonid Hurwicz, Eric Maskin, and Roger Myerson \"for having laid the foundations of mechanism design theory.\" This prize is technically not part of the original Nobel Prizes but was established by Sweden's central bank in 1968. The Nobel Prize in Mathematics does not exist as such; the closest is the Fields Medal, awarded for outstanding mathematical work and given for the first time in 1936."
+    },
+    "entry_hash": "70891e7229679db4f0a930b626cf6f183b10ab38f14013d71b27c8828afe7d5f"
+  }
+]
