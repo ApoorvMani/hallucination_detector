@@ -322,7 +322,6 @@ Input prompt
 | File | Purpose |
 |------|---------|
 | `CHANGES.md` | Decision log — why each version exists, what changed and why |
-| `CLAUDE.md` | Development guidance for this codebase |
 | `v0.2/blockchain_logger.py` | Local SHA-256 chained audit (no Ethereum, no external infrastructure) |
 | `v0.2/fusion_module.py` | Weighted adaptive fusion — weights cosine 0.25 / NLI 0.35 / judge 0.40 |
 | `v0.4/config.py` | Single source of truth pattern for all experiment configuration |
