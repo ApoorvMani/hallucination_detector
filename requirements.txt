@@ -1,2 +1,5 @@
 ollama
 matplotlib
+pandas
+networkx
+numpy

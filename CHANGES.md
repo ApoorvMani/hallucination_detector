@@ -8,6 +8,34 @@ Not just what changed, but why — this is the methodology building itself.
 
 ---
 
+## [v0.6.2 — Group 5 collab adaptation] 11 Mar 2026
+
+### Decision: adapt Group 5's multi-model topology experiment for local VS Code
+
+**Before (v0.6.1):**
+3 agents, all llama3.2, triangle topology, manual annotation via JSON.
+
+**After (v0.6.2):**
+50 nodes cycling llama3.2 / qwen2.5 / mistral, configurable topology (random/complete/star/ring),
+CSV output with Hallucination column for manual annotation, heatmap visualisation.
+
+**Why:**
+Supervisor wants results from the Group 5 experiment design — larger scale, multiple models,
+topology effects visible across models in a heatmap.
+
+**Key design decisions:**
+- Random graph (edge_probability=0.03) by default — mirrors Group 5's Erdos-Renyi choice
+- Only the largest connected component participates — isolated nodes are dropped
+- Saves round 0 (cold start) + every 5 rounds — enough checkpoints without too many rows
+- Prompt family B by default — nodes merge neighbours' answers (matches Group 5's run)
+- No Gemini/Colab dependencies — runs fully locally via Ollama
+
+**Files:**
+- `experiment.py` — Node class, topologies, pipeline, CSV output
+- `plot.py` — heatmap from annotated CSV
+
+---
+
 ## [v0.4 — behavioural prompt] 07 Mar 2026
 
 ### Decision: removed hallucination prompting from agents entirely

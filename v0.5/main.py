@@ -53,7 +53,13 @@ def run_question(q_config, index, run_ts):
     experiment_results = run_experiment(question, total_rounds=TOTAL_ROUNDS)
 
     # --- step 2: check ground truth per agent per round ---
-    evaluation = evaluate_experiment(experiment_results, facts)
+    # pass canonical answer + question so NLI can run alongside keyword check
+    evaluation = evaluate_experiment(
+        experiment_results,
+        facts,
+        canonical_answer=q_config["answer"],
+        question=question,
+    )
 
     # print summary table to terminal
     print_evaluation(evaluation, question)
